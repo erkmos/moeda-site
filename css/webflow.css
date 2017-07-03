@@ -1671,5 +1671,5 @@ textarea.w-select {
   display: none !important;
 }
 .padtext{
-  margin-top:50px;
+  margin-top:50px !important;
 }
