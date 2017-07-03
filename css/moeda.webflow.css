@@ -504,3 +504,6 @@
     align-items: center;
   }
 }
+h2.heading.sub.white.padtext {
+    padding-top: 50px;
+}
