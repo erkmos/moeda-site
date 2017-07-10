@@ -4,6 +4,9 @@
 
 .full-width-container {
   width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .navb_logo {
@@ -503,7 +506,4 @@
     -ms-flex-align: center;
     align-items: center;
   }
-}
-h2.heading.sub.white.padtext {
-    padding-top: 50px;
 }

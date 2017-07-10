@@ -114,7 +114,7 @@
   border-bottom-right-radius: 0px;
 }
 
-.progress-container.tier1.sale {
+.progress-container.sale {
   background-image: -webkit-linear-gradient(270deg, #d1ddd7, #d1ddd7);
   background-image: linear-gradient(180deg, #d1ddd7, #d1ddd7);
 }
@@ -157,7 +157,7 @@
   border-bottom-right-radius: 0px;
 }
 
-.progress.tier1.sale {
+.progress.sale {
   background-image: -webkit-linear-gradient(270deg, #01a64f, #01a64f);
   background-image: linear-gradient(180deg, #01a64f, #01a64f);
 }
