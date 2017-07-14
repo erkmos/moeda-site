@@ -1673,3 +1673,34 @@ textarea.w-select {
 .padtext{
   margin-top:50px !important;
 }
+#mailchimp {
+	background: #01a64f;
+	color: #3D6392;
+	padding: 20px 15px;
+	text-align: center;
+}
+	#mailchimp input {
+		 border: medium none;
+    color: white;
+    font-family: tahoma;
+    font-size: 16px;
+
+    margin-bottom: 10px;
+    padding: 8px 10px;
+    width: 300px;
+		border-radius: 20px;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+	}
+		#mailchimp input.email { background: #5fe29c }
+		#mailchimp input.name { background: #5fe29c}
+		#mailchimp input[type="submit"] {
+			background: #fff;
+			color: #01a64f;
+			cursor: pointer;
+			font-size: 16px;
+			width: 35%;
+			padding: 8px 0;
+
+		}
+			#mailchimp input[type="submit"]:hover { color: #01a64f }
