@@ -1704,3 +1704,6 @@ textarea.w-select {
 
 		}
 			#mailchimp input[type="submit"]:hover { color: #01a64f }
+img.whitespace {
+    margin-top: 30px;
+}
