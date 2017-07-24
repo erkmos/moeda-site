@@ -9,14 +9,15 @@
 			window.location.pathname = 'fundraiser.cn.html';
 		}
 	</script>
+	<link rel="alternate" href="/fundraiser.cn.html" hreflang="zh" />
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	<link href="css/normalize.css" rel="stylesheet" type="text/css">
 	<link href="css/webflow.css" rel="stylesheet" type="text/css">
 	<link href="css/moeda-fundraiser.webflow.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript">
 		const language = navigator ? navigator.language || navigator.userLanguage : 'en';
-		if (language === 'zh-cn') {
-			window.location.pathname = 'fundraiser.cn.html';
+		if (language.match(/^zh/i)) {
+			window.location.href = '/fundraiser.cn.html';
 		}
 	</script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js">
