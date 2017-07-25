@@ -18,11 +18,11 @@ img.whitespace {
 }
 
 .nav-link {
-  margin-top: 14px;
-  font-family: 'Open Sans', sans-serif;
-  color: #01a64f;
-  font-size: 18px;
-  font-weight: 600;
+    margin-top: 25px;
+    font-family: 'Open Sans', sans-serif;
+    color: #01a64f;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 .section {
