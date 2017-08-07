@@ -353,6 +353,18 @@ img.whitespace {
   filter: saturate(0%);
 }
 
+.teamholder {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teambio {
+  font-size: 12px;
+  text-align: center;
+}
+
 .teamrow {
   display: -webkit-box;
   display: -webkit-flex;
@@ -364,6 +376,7 @@ img.whitespace {
   -ms-flex-pack: center;
   justify-content: center;
 }
+
 
 @media (max-width: 991px) {
   .nav-link {
