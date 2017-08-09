@@ -235,6 +235,10 @@
   font-weight: 400;
 }
 
+.faqheading.noextramargin {
+  margin-top: 0px;
+}
+
 .heading.smaller {
   font-size: 18px;
   margin-top: -3px;
