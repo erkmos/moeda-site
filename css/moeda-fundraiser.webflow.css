@@ -50,6 +50,12 @@
   margin-bottom: 15px;
 }
 
+.link {
+  font-weight:700;
+  text-decoration: none;
+  color:orange
+}
+
 .nav-link {
   margin-top: 25px;
   font-family: 'Open Sans', sans-serif;
