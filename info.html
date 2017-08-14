@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Magic</title>
+    <script type="text/javascript" src="js/sjcl.js"></script>
+    <script type="text/javascript">
+      var data = "eyJpdiI6IkM1VC83VWNRREs0Q0pxL0h1UXpTK3c9PSIsInYiOjEsIml0ZXI" + 
+                 "iOjEwMDAwLCJrcyI6MTI4LCJ0cyI6NjQsIm1vZGUiOiJjY20iLCJhZGF0YS" +
+                 "I6IiIsImNpcGhlciI6ImFlcyIsInNhbHQiOiJidklhZ1RNWUhGWT0iLCJjd" +
+                 "CI6IkxCeFFnUGQvbDEzMWJVWStOVncvYlZxbEk0RUVaL25FbFBFNEt1YWZM" +
+                 "NlVRczJ1MXJjdlBtc0N4RU5Eek83ckw2Qlk9In0=";
+
+      function guess() {
+        var sourceElem = document.getElementById('secret');
+        var secret = sourceElem.value;
+        var elem = document.getElementById('data');
+
+        try {
+          elem.innerHTML = sjcl.decrypt(secret, atob(data));
+        } catch (error) {
+          elem.innerHTML = "No, that's not it!";
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h4>What's the magic word?</h4>
+    <input id="secret" type="text">
+    <button onclick="guess()">Try it!</button>
+    <p id="data"></p>
+  </body>
+</html>
