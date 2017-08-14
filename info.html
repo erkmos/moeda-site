@@ -22,8 +22,10 @@
   </head>
   <body>
     <h4>What's the magic word?</h4>
-    <input id="secret" type="text">
-    <button onclick="guess()">Try it!</button>
+    <form onsubmit="event.preventDefault(); guess();">
+      <input id="secret" type="text">
+      <button type="submit">Try it!</button>
+    </form>
     <p id="data"></p>
   </body>
 </html>
