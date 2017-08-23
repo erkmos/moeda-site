@@ -404,7 +404,10 @@ textarea.w-select {
 .w-container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 971px;
+  max-width: 994px;
+}
+.w-container.portugese {
+  max-width: 1031px;
 }
 .w-container:before,
 .w-container:after {
