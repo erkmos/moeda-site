@@ -41,6 +41,11 @@
   padding-bottom: 25px;
 }
 
+.header-image {
+  width: 24px;
+  fill: green;
+}
+
 .navbar {
   background-color: #01a64f;
 }
